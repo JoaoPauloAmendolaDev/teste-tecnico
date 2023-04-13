@@ -2,6 +2,63 @@ p{
     font-family: 'Roboto';
 }
 
+.conteiner{
+    display: flex;
+    flex-direction: column;
+}
+
+.dateInformationConteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 7vh;
+    
+    margin-top: 30px;
+    background-color: #4b4b4b20;
+
+}
+
+.dateInformationConteiner > ol{
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-left: 200px;
+}
+
+.dateInformationConteiner > ol > li{
+    width: 100px;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    margin: 0 30px;
+}
+
+.dateInformationConteiner > ol > li > p{
+    height: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    font-weight: 500;
+}
+
+.dateInformationConteiner > ol :nth-child(6){
+    background-color: rgb(88, 142, 124);
+
+    color: #fff;
+}
+
 .header{
     display: flex;
     align-items: center;
