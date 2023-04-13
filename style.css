@@ -12,7 +12,7 @@ p{
     align-items: center;
     justify-content: center;
 
-    width: 100%;
+    width: 99vw;
     height: 7vh;
     
     margin-top: 30px;
@@ -185,4 +185,68 @@ p{
 
 .red-ball {
     background-color: red;
+}
+
+.companysInformationBox {
+    width: 99vw;
+    height: 40vh;
+
+}
+
+.companyInformation {
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: #4b4b4b19;
+}
+
+.companyNameBox{
+    height: 100%;
+    width: 22vw;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    padding-left: 20px;
+}
+
+.companyNameBox > p {
+    margin-left: 15px;
+
+    font-weight: 500;
+}
+
+.status {
+    width: 11vw;
+    height: 100%;
+
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.openButton {
+    width: 9vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.openButton > div > ion-icon {
+    font-size: 25px;
+    color: rgb(75, 149, 154);
+}
+
+.grey_background {
+    background-color: rgb(186, 186, 186);
 }
