@@ -8,10 +8,52 @@
     <meta name="author" content="João Paulo S. Amendola">
     <link rel ="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet">
     <script src="script.js"></script>
   </head>
-  <body>
+  <header class="header">
+    <div class="headerText">
+      <ion-icon name="document-outline"></ion-icon>
+      <p>Docs - Gerenciamento de documentos</p>
+    </div>
+  </header>
+  <body> 
     <!-- Conteúdo do site aqui -->
-    
+    <div class="conteiner">
+      <div class="bodyHeader">
+        <div class="left-size-header-conteiner">
+        <div class="input">
+          <ion-icon name="search-outline"></ion-icon>
+          <input placeholder="Buscar Empresa" />
+        </div>
+        <div>
+          <div class="ball"></div>
+          <p>Recebidos por e-mail</p>
+        </div>
+        <div>
+          <div class="ball green-ball"></div>
+          <p style="color: green">Tudo recebido</p>
+        </div>
+        <div>
+          <div class="ball orange-ball"></div>
+          <p style="color: orange">Recebido parcialmente</p>
+        </div>
+        <div>
+          <div class="ball red-ball"></div>
+          <p style="color: red;">Não recebido</p>
+        </div>
+      </div>
+        <div class="dates">  
+          <p>Junho/2019 a Novembro/2019</p>
+          <ion-icon name="chevron-back-outline"></ion-icon>
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </div>
+      </div>
+
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>
 </html>

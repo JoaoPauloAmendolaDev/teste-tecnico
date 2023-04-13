@@ -1,0 +1,131 @@
+p{
+    font-family: 'Roboto';
+}
+
+.header{
+    display: flex;
+    align-items: center;
+
+    width: 99vw;
+    height: 7vh;
+
+    background-color: #4b4b4b19;
+
+    margin-top: 9px;
+    padding-left: 10px;
+}
+
+.headerText > p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.left-size-header-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 65%;
+}
+
+.left-size-header-conteiner > div{
+    display: flex;
+    align-items: center; 
+}
+
+
+.header > div{
+    display: flex;
+    align-items: center;
+}
+
+.headerText > ion-icon {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.bodyHeader{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-top: 20px;
+}
+
+.bodyHeader > :nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    position: relative;
+}
+
+.dates > p{
+    font-weight: 500;
+}
+
+.input > input{
+    width: 15vw;
+    height: 30px;
+
+    border-radius: 20px;
+    padding-left: 35px; 
+
+    border-color: #00000035;
+}
+
+.input > ion-icon {
+    position: absolute;
+    left: 10px;
+
+    font-size: 19px;
+}
+
+
+.bodyHeader > .dates > :nth-child(2){
+    font-size: 32px;
+
+    border: 1px solid;
+    border-radius: 5px;
+
+    border-color: #00000035;
+
+    margin-left: 10px;
+}
+
+.bodyHeader > .dates > :nth-child(3){
+    font-size: 32px;
+
+    border: 1px solid;
+    border-radius: 5px;
+
+    border-color: #4b4b4b50;
+
+    color: #4b4b4b50;
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+
+  background-color: grey;
+
+  margin-right: 7px;
+}
+
+.orange-ball {
+    background-color: orange;
+}
+
+.green-ball {
+    background-color: green;
+}
+
+.red-ball {
+    background-color: red;
+}
