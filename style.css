@@ -268,3 +268,97 @@ p{
 .grey_background {
     background-color: rgb(186, 186, 186);
 }
+
+.middleText {
+    height: 30px;
+    width: 100%;
+
+    margin: 30px 30px;
+    
+    font-size: 25px;
+}
+
+.companiesNotConfiguratedConteiner {
+    width: 99vw;
+
+    height: fit-content;
+}
+
+.companyNotConfigured{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 60px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: #0000001c;
+}
+
+.companyNotConfigured > div > ion-icon{
+    font-size: 25px;
+    color: rgb(75, 149, 154);
+
+    margin-right: 30px;
+}
+
+
+.smallBox {
+    width: 20px;
+    height: 20px;
+    border-radius: 25%;
+    background-color: #fff;
+
+    margin-left: 15px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: #00000035;
+}
+
+.nameAndBoxConteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nameAndBoxConteiner > ion-icon {
+    color: #000 !important;
+    padding-left: 13px;
+    margin: 0 0 !important;
+}
+
+.nameAndBoxConteiner :nth-child(2){
+    margin-left: 20px;
+}
+
+.floatingButton{
+    width: 150px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+
+    right: 150px;
+    bottom: 200px;
+    
+    background-color: #3adef79d;
+
+    border-radius: 50px;
+}
+
+.floatingButton > p{
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.floatingButton > ion-icon{
+    color: #fff;
+
+    font-size: 25px;
+}
